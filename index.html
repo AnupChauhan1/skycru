@@ -17,6 +17,14 @@
     background: linear-gradient(to bottom right, #1f1f20, #701467); /* Gradient background */
     overflow: hidden; /* Hide overflow to prevent scrollbar */
 }
+	.logo img {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Must be equal to width to maintain a circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    border: 3px solid #000; /* Optional: Add a border around the circle */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better visibility */
+}
 .navbar {
     /* Semi-transparent white background */
     position: fixed;
